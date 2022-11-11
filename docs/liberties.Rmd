@@ -1,0 +1,106 @@
+---
+knit: ( function(input, ...){xaringan::infinite_moon_reader(input) } )
+title: "Civil Liberties"
+subtitle: ""
+# author: "Devin Judge-Lord <br>  Harvard University"
+link_col: cyan
+titletext_fontfamily: "Roboto:wght@100"
+middle_fontfamily: "Roboto"
+font_family: "Roboto:wght@100"
+urlcolor: cyan
+output:
+  xaringan::moon_reader:
+    self_contained: true
+    lib_dir: libs
+    mathjax: "https://cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-AMS_HTML"
+    nature:
+      ratio: '16:9'
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      #slideNumberFormat: "%current%/34"           # 12/42 
+editor_options: 
+  chunk_output_type: console
+---
+
+
+
+```{r setup, include = FALSE}
+short = "true"
+exclude_stepwise = "false"
+exclude_extra = "false"
+
+# cache everything 
+knitr::opts_chunk$set(warning = FALSE, 
+                      message = FALSE,
+                      echo = FALSE, 
+                      #fig.path = "Figs/",
+                      fig.topcaption=TRUE,
+                      cache = TRUE, 
+                      fig.align = 'center',
+                      fig.retina = 2,
+                      fig.show="hold",
+                      fig.pos= "htbp",
+                      fig.path = "Figs/",
+                      fig.cap = '   ',
+                      out.width = "100%",
+                      out.extra = "")
+
+
+
+# Xaringan: https://slides.yihui.name/xaringan/
+library("xaringan")
+library("xaringanthemer")
+library("here")
+library("tidyverse")
+library("magrittr")
+library("knitr")
+library("kableExtra")
+
+
+
+
+style_mono_light(base_color = "#3b444b",
+          link_color	
+ = "#92d6b6",
+          inverse_link_color	
+ = "#B7E4CF",
+          #background_image = "Figs/ej-superfund-light.jpeg",
+          background_color = "#FFFFFF", #FAF0E6", # linen
+          header_background_content_padding_top = "7rem",
+ header_font_google = google_font("Open Sans"), 
+          text_font_google = google_font("Open Sans"), 
+ #text_font_family = "cm-web-fonts",
+ #text_font_url = "https://cdn.jsdelivr.net/gh/aaaakshat/cm-web-fonts@latest/fonts.css",
+          base_font_size = "30px",
+  text_font_size = "1rem",
+ code_font_size = "1rem",
+ header_h1_font_size = "1.75rem",
+  header_h2_font_size = "1.5rem",
+  header_h3_font_size = "1.25rem",
+          padding = "15px",
+          code_font_google = google_font("Inconsolata"), 
+          code_inline_background_color    = "#FFFFFF", 
+          #table_row_even_background_color = "grey"#, extra_css = list(".remark-slide-number" = list("display" = "none"))
+ )
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
