@@ -204,6 +204,8 @@ but as Oliver Wendell Homes noted, It is about context
 background-image: url(figs/sedition.jpg)
 background-size: contain
 
+`Alien and Sedition Acts (1798)`
+
 `Who decided? `
 
 --
