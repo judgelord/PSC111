@@ -161,7 +161,8 @@ The Bill of Rights *withdraws* certain subjects from political controversy and p
 
 # #Goals
 
-Civil liberties advance different political projects in different contexts. For example:
+Civil liberties advance different political projects in different contexts. --
+For example:
 - diversity
 - equality 
 - stability 
